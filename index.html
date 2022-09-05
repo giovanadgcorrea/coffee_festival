@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Festival</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="event-subscription">
+      <div id="disclaimer">
+        <h2>Coffee Festival</h2>
+        <p class="about-event">
+            Uma celebração da comunidade e da cultura do café, com diversas experiências gastronômicas e culturais
+        </p>
+        <p>Data do evento:</p>
+        <p class="event-date">Domingo, 18 de setembro, a partir das 14h</p>
+      </div>
+      <div id="subscription-form">
+        <p>Preencha o formulário para receber os detalhes do evento</p>
+        <form>
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" placeholder="Digite seu nome" />
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="Digite seu e-mail" />
+          </div>
+          <div class="form-group">
+            <label for="phone">Telefone</label>
+            <input type="text" placeholder="Número de WhatsApp" />
+          </div>
+          <div class="form-group">
+            <label for="interest">Principal interesse</label>
+            <select name="interest">
+              <option value="" disabled selected>Selecione</option>
+              <option value="classes">Aulas</option>
+              <option value="chat">Degustações</option>
+              <option value="tasting">Bate-papo</option>
+              <option value="other">Outro</option>
+            </select>
+          </div>
+          <input type="submit" class="btn" value="Quero me inscrever" />
+        </form>
+      </div>
+    </header>
+    <section id="key-benefits">
+      <h2>O que você vai aprender:</h2>
+      <div class="benefits">
+        <div class="benefit">
+          <div id="benefit-1" class="benefit-img"></div>
+          <p>
+            The Kitchen – aulas com chefs e confeiteiros que explicarão e demonstrarão suas receitas especiais
+          </p>
+        </div>
+        <div class="benefit">
+          <div id="benefit-2" class="benefit-img"></div>
+          <p>
+            Sensory Room – degustações guiadas que desvendam os aromas e sabores dessa bebida tão amada
+          </p>
+        </div>
+        <div class="benefit">
+          <div id="benefit-3" class="benefit-img"></div>
+          <p>
+            The Lab – local reservado para bate-papo com os mais importantes profissionais do universo do café
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="location">
+      <div id="address">
+        <i class="bi bi-geo-alt-fill"></i>
+        <div id="address-details">
+          <p>Fundação Bienal de São Paulo</p>
+          <p>Av. Pedro Álvares Cabral, s/no.</p>
+          <p>Abertura: 14h</p>
+        </div>
+      </div>
+      <div id="about-location">
+        <h3>Local de destaque</h3>
+        <p>
+          O evento também traz uma exposição especial. Em parceria com o Museu da Imigração, na Mooca, e o Museu do Café, de Santos, serão exibidos textos, imagens e objetos que contam a história de imigrantes que vieram para o país a fim de plantar o grão em lavouras.
+        </p>
+      </div>
+    </section>
+    <section id="details">
+      <div class="detail" id="detail-1">
+        <img src="img/festival.jpg" alt="" />
+        <div class="detail-description">
+          <p>Devotos do café, atenção: chegou a vez da capital paulista. Criado onze anos atrás, em Londres, o evento dedicado à bebida e voltado para qualquer pessoa que goste de saboreá-la — do nível básico ao nerd — estreia na cidade, depois de se espalhar por outras metrópoles, como Milão, Nova York e Paris. Repleta de atrações em torno da cafeína, a primeira edição do Coffee Festival está marcada para o dia 18 de setembro.</p>
+        </div>
+      </div>
+      <div class="detail" id="detail-2">
+        <div class="detail-description">
+          <p>Mais de cinquenta marcas de café, estabelecimentos, acessórios, torrefações e equipamentos estão confirmados no evento. Uma das atividades principais será o palco dedicado à latte art — os desenhos no café feitos com leite vaporizado, que bombam nas redes sociais. Visitantes vão aprender técnicas, assistir a competições e eleger quem faz as figuras mais caprichadas na xícara.</p>
+        </div>
+        <img src="img/latte-art.jpg" alt="" />
+      </div>
+      <div class="detail" id="detail-3">
+        <img src="img/degustacoes.jpg" alt="" />
+        <div class="detail-description">
+          <p>Outras atrações são o espaço sensorial, uma sala com profissionais do mercado que explicarão conceitos de preparo e servirão degustações, e o laboratório, com discussões e oficinas, entre elas um encontro acerca de aromas e sabores. Ainda fazem parte da programação aulas de culinária, com comidinhas que se mostram bons acompanhamentos para a famosa bebida.</p>
+        </div>
+      </div>
+    </section>
+    <section id="cta">
+      <h3>Gostou? Então se inscreva:</h3>
+      <button class="btn">Solicitar Inscrição</button>
+    </section>
+    <footer id="footer">
+      <h3>Coffee Festival</h3>
+      <p>O maior evento para amantes do café</p>
+      <p><span>Entre em contato:</span> oi@coffeefestival.com.br</p>
+      <p><span>Ou pelo telefone:</span> (11) 99999-9999</p>
+    </footer>
+  </body>
+</html>
