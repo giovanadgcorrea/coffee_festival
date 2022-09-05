@@ -120,7 +120,7 @@
     flex-direction: column;
     align-items: center;
     max-width: 20%;
-    color: var(--text-tertiary);
+    color: var(--text-secondary);
   }
   
   .benefit .benefit-img {
@@ -162,16 +162,6 @@
     max-width: 30%;
   }
   
-  #address {
-    display: flex;
-  }
-  
-  #address i {
-    color: var(--primary);
-    font-size: 4em;
-    margin-right: 0.5em;
-  }
-  
   #address-details {
     text-align: center;
     font-size: 1.3em;
@@ -205,15 +195,9 @@
     width: 30%;
   }
   
-  .detail h3 {
+  .detail p {
     margin-bottom: 1em;
-    font-size: 4em;
-    font-weight: 500;
-  }
-  
-  #detail-1 h3 {
-    font-size: 4em;
-    font-weight: 700;
+    font-size: 1.1em;
   }
   
   .detail-description {
@@ -362,12 +346,24 @@
       margin: 2em 0;
     }
   
-    #detail-1 img {
-      display: none;
-    }
-  
     .detail-description {
       padding: 0;
+    }
+
+    #detail-1 img {
+      order: 2;
+    }
+  
+    #detail-1 .detail-description {
+      order: 1;
+    }
+
+    #detail-2 img {
+      order: 2;
+    }
+  
+    #detail-2 .detail-description {
+      order: 1;
     }
   
     #detail-3 img {
