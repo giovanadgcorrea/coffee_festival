@@ -1,5 +1,5 @@
 # Coffee Festival
-&rarr; Projeto fictício com o objetivo de aprimorar os conhecimentos de HTML e CSS<br>
+&rarr; Projeto desenvolvido com o objetivo de aprimorar meus conhecimentos de HTML e CSS responsivo<br>
 
 <strong>Tecnologias utilizadas:<strong><br>
 <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML">
